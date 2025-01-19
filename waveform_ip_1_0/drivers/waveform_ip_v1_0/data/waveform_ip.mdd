@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER waveform_ip
+	OPTION supported_peripherals = (waveform_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = waveform_ip;
+END DRIVER
